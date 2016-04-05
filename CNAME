@@ -1,1 +1,1 @@
-www.hellofdp.co
+echo "hellofdp.co" > CNAME
