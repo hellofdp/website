@@ -1,0 +1,72 @@
+@import "reset.scss";
+$blackColor  : #000000;
+$greyColor   : #9E9E9E;
+$brownColor  : #DEB887;
+$whiteColor  : #FFFFFF;
+$serif: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+$noSerif: Arial,'Helvetica Neue', Helvetica, sans-serif;
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+body {
+  background-color: $blackColor;
+  color: $whiteColor;
+  -webkit-font-smoothing: antialiased;
+  /*-webkit-overflow-scrolling: touch;*/
+}
+a,
+a:hover {
+  color: $whiteColor;
+  -webkit-font-smoothing: antialiased;
+}
+
+ul {
+  li {
+    //display: inline-block;
+  }
+}
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+h1, h2, a {
+    color: $whiteColor;
+        text-shadow: 0 0 5px rgb(0, 0, 0);
+}
+
+#canvas {
+  position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+main {
+  padding: 50px;
+  text-align: left;
+
+
+  h1 {
+    font: bold 24px $noSerif;
+    font: bold 1.5rem $noSerif;
+  }
+  h2 {
+    font: bold 14px $noSerif;
+    font: bold 0.875rem $noSerif;
+  }
+  nav {
+    margin: 25px 0;
+   a {
+    font: normal 12px $noSerif;
+    font: normal 0.75rem $noSerif;
+    text-transform: uppercase;
+
+  }
+}
+}

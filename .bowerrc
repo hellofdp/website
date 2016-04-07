@@ -1,0 +1,4 @@
+{
+    "directory" : "resources/assets/js/libs",
+    "json"      : "bower.json" 
+}
