@@ -43,7 +43,7 @@ function init() {
       shininess: 200
     });
     var mesh = new THREE.Mesh(geometry, material);
-    mesh.position.set(-30, 1, 1);
+    mesh.position.set(-25, -10, 1);
     mesh.rotation.set(1.5, 0, 1);
     mesh.scale.set(0.35, 0.35, 0.35);
     mesh.castShadow = true;
